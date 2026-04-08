@@ -1,0 +1,6 @@
+{"index": 0, "msgid": "Hello", "msgstr": "Привет", "reason": "LLM error: connection_error", "type": "semantic"}
+{"index": 1, "msgid": "Welcome {name}", "msgstr": "Добро пожаловать, {name}", "reason": "LLM error: connection_error", "type": "semantic"}
+{"index": 2, "msgid": "Hello {user}, how are you?", "msgstr": "Привет, как дела?", "reason": "Missing in translation: {'{user}'}", "type": "structural"}
+{"index": 4, "msgid": "Save changes", "msgstr": "Удалить файл", "reason": "LLM error: connection_error", "type": "semantic"}
+{"index": 5, "msgid": "Line 1\\nLine 2", "msgstr": "Строка 1\\nСтрока 2", "reason": "LLM error: connection_error", "type": "semantic"}
+{"index": 6, "msgid": "First sentence. Second sentence.", "msgstr": "Одно предложение", "reason": "LLM error: connection_error", "type": "semantic"}
