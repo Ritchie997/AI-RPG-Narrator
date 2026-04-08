@@ -1,0 +1,43 @@
+# Test PO file for validation
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+# Valid translation
+#, freez
+msgid "Hello"
+msgstr "Привет"
+
+# Valid with placeholder
+#, freez
+msgid "Welcome {name}"
+msgstr "Добро пожаловать, {name}"
+
+# Invalid - missing placeholder
+#, freez
+msgid "Hello {user}, how are you?"
+msgstr "Привет, как дела?"
+
+# Valid plural form
+msgid "One item"
+msgid_plural "{count} items"
+msgstr[0] "Один элемент"
+msgstr[1] "{count} элементов"
+
+# Invalid semantic mismatch
+#, freez
+msgid "Save changes"
+msgstr "Удалить файл"
+
+# Valid with special chars
+#, freez
+msgid "Line 1\\nLine 2"
+msgstr "Строка 1\\nСтрока 2"
+
+# Invalid - sentence count mismatch
+#, freez
+msgid "First sentence. Second sentence."
+msgstr "Одно предложение"
